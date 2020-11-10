@@ -1,0 +1,9 @@
+ 
+ 
+ select * from employee order by salary desc limit 1,1;
+ 
+ select * from employee where hire_date='2020-11-10';
+
+ select sum(hour)  from employee where emp_id=100 and date='2020-11-10';
+ 
+ select sum(hour)  from employee where emp_id=100 and date between '2020-11-01' and '2020-11-30';
